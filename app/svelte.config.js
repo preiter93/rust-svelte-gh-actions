@@ -7,7 +7,7 @@ const config = {
 			fallback: '404.html'
 		}),
 		paths: {
-			base: '/rust-svelte-gh-actions'
+			base: process.env.BASE_PATH
 		}
 	}
 };

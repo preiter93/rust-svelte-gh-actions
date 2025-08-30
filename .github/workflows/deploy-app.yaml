@@ -28,7 +28,7 @@ jobs:
 
       - name: Build
         env:
-          BASE_PATH: '/${{ github.event.repository.name }}'
+          BASE_PATH: '/rust-svelte-gh-actions'
         run: |
           npm run build
           touch build/.nojekyll
